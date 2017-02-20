@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Geog 483 Leaflet Tutorial</title>
+	<!-- This tutorial is based on the official Leaflet quickstart: http://leafletjs.com/examples/quick-start/ -->
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+<style>
+    	body { margin:0; padding:0; }
+    	#mapid { position:absolute; top:50px; bottom:50px; left:50px; width:500px; height:500px;}
+</style>
+
+<div id="mapid"</div>
+<script>
+
+	var mymap = L.map('mapid').setView([43.466, -80.53], 15);
+
+	L.tileLayer("http://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '
+	}).addTo(mymap);
+
+	var watpark = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.52903816103935,
+              43.46602257939698
+            ],
+            [
+              -80.52903816103935,
+              43.466052753243034
+            ],
+            [
+              -80.52952766418457,
+              43.46622892926919
+            ],
+            [
+              -80.52962556481361,
+              43.46618902203754
+            ],
+            [
+              -80.52970871329308,
+              43.46609655396047
+            ],
+            [
+              -80.52975967526436,
+              43.46603231289735
+            ],
+            [
+              -80.52972748875618,
+              43.465966125063964
+            ],
+            [
+              -80.52969932556152,
+              43.46589409704526
+            ],
+            [
+              -80.52967518568039,
+              43.46583180247338
+            ],
+            [
+              -80.52938148379326,
+              43.465834722532875
+            ],
+            [
+              -80.52929028868675,
+              43.46587949676072
+            ],
+            [
+              -80.52923664450645,
+              43.46592427095543
+            ],
+            [
+              -80.52922323346138,
+              43.46599824563922
+            ],
+            [
+              -80.52920177578926,
+              43.46603717964696
+            ],
+            [
+              -80.52909314632416,
+              43.46602257939698
+            ],
+            [
+              -80.52904620766638,
+              43.46601673929601
+            ],
+            [
+              -80.52903816103935,
+              43.46602257939698
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.53101159632206,
+              43.46695309494503
+            ],
+            [
+              -80.5309545993805,
+              43.46697402164674
+            ],
+            [
+              -80.5309371650219,
+              43.46702171503286
+            ],
+            [
+              -80.53097404539585,
+              43.467055781714215
+            ],
+            [
+              -80.53103171288967,
+              43.467065515048205
+            ],
+            [
+              -80.53108803927898,
+              43.46704702171227
+            ],
+            [
+              -80.53109943866728,
+              43.467001275014844
+            ],
+            [
+              -80.53107462823391,
+              43.466963314963046
+            ],
+            [
+              -80.53101159632206,
+              43.46695309494503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.52922189235687,
+              43.466533586047504
+            ],
+            [
+              -80.52902340888977,
+              43.466340864046686
+            ],
+            [
+              -80.52831530570984,
+              43.46669710726333
+            ],
+            [
+              -80.52847892045975,
+              43.46689761481706
+            ],
+            [
+              -80.52922189235687,
+              43.466533586047504
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.53107798099518,
+              43.46662702679642
+            ],
+            [
+              -80.53101897239684,
+              43.466566679662606
+            ],
+            [
+              -80.53094923496246,
+              43.46660171994119
+            ],
+            [
+              -80.53098410367966,
+              43.46664844028105
+            ],
+            [
+              -80.53107798099518,
+              43.46662702679642
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+};
+
+ L.geoJson( watpark,{ 
+ 	style: function (feature) {
+        return { opacity: 0, fillOpacity: 0.60, fillColor: "#6600ff" };
+    }
+}).addTo(mymap);
+</script>
+
+
+
+</body>
+</html>
