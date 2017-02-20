@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Geog 483 Leaflet Tutorial</title>
+	<!-- This tutorial is based on the official Leaflet quickstart: http://leafletjs.com/examples/quick-start/ -->
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+<style>
+    	body { margin:0; padding:0; }
+    	#mapid { position:relative; top:10px; margin:auto; width:1200px; height:900px;}
+</style>
+
+<div id="mapid"</div>
+<script>
+
+	var mymap = L.map('mapid').setView([43.466, -80.53], 14.6);
+	 
+	L.tileLayer("http://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '
+	}).addTo(mymap);
+
+	L.marker([43.466, -80.53]).addTo(mymap)
+		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+	
+	L.marker([43.4656981,-80.5228275]).addTo(mymap)	
+		.bindPopup("<img src='http://www.kwrealestatenews.com/wp-content/uploads/2015/12/Settlement.jpg' style='width:100px;height:100px'/> <br> <b>Settlement Co.</b> <br> A coffee shop with a bright and open atmosphere. Perfect for doing work or catching up with a friend. <a href='https://www.settlementco.ca' target='_blank'><i>website</i></a> <br> <i>(Image sourced from  http://www.kwrealestatenews.com/wp-content/uploads/2015/12/Settlement.jpg)</i>").openPopup(); 		
+
+	L.marker([43.468031, -80.522986]).addTo(mymap)
+		.bindPopup("<img src='https://redleatherbooth.files.wordpress.com/2012/11/dvlb-sign3.jpg' style='width:100px;height:100px'/> <br> <b>Death Valley's Little Brother</b> <br> A rustic and dark coffee shop with excellent coffee and an extensive collection of whiskey. <br> <a href='http://www.dvlb.ca/about.html' target='_blank'><i>website</i></a> <br> <i>(Image sourced from https://redleatherbooth.files.wordpress.com/2012/11/dvlb-sign3.jpg)</i>").openPopup();
+
+	L.marker([43.4721965,-80.53812649999998]).addTo(mymap)
+		.bindPopup("<img src='https://igx.4sqi.net/img/general/200x200/79982_UWDrdNpvFfLGQIzksoBrVUnB5zDaM0XOdIwub1ec1LM.jpg' style='width:100px;height:100px'/> <br> <b>Mr. Panino Beijing House</b> <br> The quintessential chinese restaurant of the University of Waterloo. Also the official meme restaurant™ of r/uWaterloo. <br> <a href='http://www.mrpaninos.ca/' target='_blank'><i>website</i></a> <br> <i>(Image sourced from https://igx.4sqi.net/img/general/200x200/ <br> 79982_UWDrdNpvFfLGQIzksoBrVUnB<br>5zDaM0XOdIwub1ec1LM.jpg)</i>").openPopup();
+
+	L.marker([43.463962, -80.5227749]).addTo(mymap)
+		.bindPopup("<img src='http://www.dakon.ca/usercontent/images/Beertown%20Waterloo%20-%20Main.JPG' style='width:149px;height:100px'/> <br> <b>Beertown Public House</b> <br> It has the word Beer in it's name, what's not to like? <br> <a href='http://www.beertown.ca/' target='_blank'><i>website</i></a> <br> <i>(Image sourced from http://www.dakon.ca/usercontent/images/Beertown<br>%20Waterloo%20-%20Main.JPG</i>").openPopup();
+</script>
+
+
+
+</body>
+</html>
