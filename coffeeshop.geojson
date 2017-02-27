@@ -1,5 +1,8 @@
 {  
    "type":"FeatureCollection",
+   "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
    "features":[  
       {  
          "type":"Feature",
