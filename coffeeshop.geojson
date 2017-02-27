@@ -1,8 +1,7 @@
 {  
    "type":"FeatureCollection",
-   "style":{
+   "style",
             "marker-size":"large"
-   }
    "features":[  
       {  
          "type":"Feature",
