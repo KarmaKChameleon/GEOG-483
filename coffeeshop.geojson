@@ -4,7 +4,7 @@
       {  
          "type":"Feature",
          "properties":{  
-            "marker-symbol":"cafe-15.svg",
+            "marker-symbol":"https://github.com/KarmaKChameleon/GEOG-483/tree/master/icons",
             "FID":0,
             "created_at":"2016-09-26 14:02:18 UTC",
             "created_by":"hyren@uwaterloo.ca",
