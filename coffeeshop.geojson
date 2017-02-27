@@ -1,8 +1,5 @@
 {  
    "type":"FeatureCollection",
-   "properties":{  
-            "marker-color":"#4d2800",
-            "marker-symbol":"cafe",
    "features":[  
       {  
          "type":"Feature",
@@ -447,6 +444,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":8,
             "created_at":"2016-09-26 14:28:46 UTC",
             "created_by":"sjluckhu@uwaterloo.ca",
@@ -500,6 +499,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":9,
             "created_at":"2016-09-26 14:33:19 UTC",
             "created_by":"hyren@uwaterloo.ca",
@@ -553,6 +554,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":10,
             "created_at":"2016-09-26 14:49:36 UTC",
             "created_by":"nttorren@uwaterloo.ca",
@@ -606,6 +609,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":11,
             "created_at":"2016-09-26 15:05:13 UTC",
             "created_by":"sjluckhu@uwaterloo.ca",
@@ -659,6 +664,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":12,
             "created_at":"2016-09-26 13:49:33 UTC",
             "created_by":"lazettel@uwaterloo.ca",
@@ -712,6 +719,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":13,
             "created_at":"2016-09-26 14:08:30 UTC",
             "created_by":"lazettel@uwaterloo.ca",
@@ -765,6 +774,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":14,
             "created_at":"2016-09-26 14:21:57 UTC",
             "created_by":"lazettel@uwaterloo.ca",
@@ -818,6 +829,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":15,
             "created_at":"2016-09-26 14:40:45 UTC",
             "created_by":"lazettel@uwaterloo.ca",
@@ -871,6 +884,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":16,
             "created_at":"2016-09-26 19:45:37 UTC",
             "created_by":"myding@uwaterloo.ca",
@@ -924,6 +939,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":17,
             "created_at":"2016-09-26 20:01:39 UTC",
             "created_by":"tdwidaja@uwaterloo.ca",
@@ -976,7 +993,9 @@
       },
       {  
          "type":"Feature",
-         "properties":{  
+         "properties":{ 
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":18,
             "created_at":"2016-09-30 17:58:44 UTC",
             "created_by":"chfreude@uwaterloo.ca",
@@ -1030,6 +1049,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":19,
             "created_at":"2016-09-30 17:57:58 UTC",
             "created_by":"s288wu@uwaterloo.ca",
@@ -1083,6 +1104,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":20,
             "created_at":"2016-09-30 18:16:34 UTC",
             "created_by":"slsinnig@uwaterloo.ca",
@@ -1135,7 +1158,9 @@
       },
       {  
          "type":"Feature",
-         "properties":{  
+         "properties":{ 
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":21,
             "created_at":"2016-09-30 18:27:51 UTC",
             "created_by":"hk2bedi@uwaterloo.ca",
@@ -1189,6 +1214,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":22,
             "created_at":"2016-09-30 18:08:53 UTC",
             "created_by":"hk2bedi@uwaterloo.ca",
@@ -1242,6 +1269,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":23,
             "created_at":"2016-09-30 18:16:49 UTC",
             "created_by":"hk2bedi@uwaterloo.ca",
@@ -1295,6 +1324,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":24,
             "created_at":"2016-09-30 21:01:59 UTC",
             "created_by":"jqsun@uwaterloo.ca",
@@ -1348,6 +1379,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":25,
             "created_at":"2016-09-26 14:10:12 UTC",
             "created_by":"y9ning@uwaterloo.ca",
@@ -1401,6 +1434,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":26,
             "created_at":"2016-09-30 20:34:46 UTC",
             "created_by":"y9ning@uwaterloo.ca",
@@ -1454,6 +1489,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":27,
             "created_at":"2016-09-30 18:27:36 UTC",
             "created_by":"slsinnig@uwaterloo.ca",
@@ -1507,6 +1544,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":28,
             "created_at":"2016-09-26 14:29:22 UTC",
             "created_by":"jgcarias@uwaterloo.ca",
@@ -1560,6 +1599,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":29,
             "created_at":" ",
             "created_by":"Peter Johnson",
@@ -1613,6 +1654,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":30,
             "created_at":" ",
             "created_by":"Peter Johnson",
@@ -1666,6 +1709,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":31,
             "created_at":" ",
             "created_by":"Peter Johnson",
@@ -1719,6 +1764,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":32,
             "created_at":" ",
             "created_by":"Peter Johnson",
@@ -1772,6 +1819,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":33,
             "created_at":" ",
             "created_by":"Peter Johnson",
@@ -1825,6 +1874,8 @@
       {  
          "type":"Feature",
          "properties":{  
+            "marker-color":"#4d2800",
+            "marker-symbol":"cafe",
             "FID":34,
             "created_at":" ",
             "created_by":" ",
